@@ -14,9 +14,11 @@
 
 ---
 
-## 🚀 Overview
+## 🚀 Overview: The Pursuit of Unbiased Legal Navigation
 
-**JurisNode** is an AI-powered legal navigation platform designed to bridge the justice gap in India. It empowers citizens — especially in rural and underserved communities — to understand their legal rights, navigate complex procedures, and connect with verified lawyers across jurisdictions.
+**JurisNode** is a next-generation legal tech platform explicitly engineered to tackle the core challenge of **Unbiased AI Decision-Making**. Designed to bridge the justice gap across India, it empowers citizens — especially in rural and underserved communities — to access purely procedural, strictly neutral, and highly robust legal triage.
+
+In a sector where AI hallucinations or systemic bias can cause devastating legal consequences, JurisNode utilizes a heavily sandboxed generative AI pipeline. Our architecture ensures that all automated guidance is rendered impartially, devoid of personal assumptions, and rigorously checked for compliance with objective procedural laws.
 
 ### The Problem
 - **70%** of India's population lacks access to affordable legal guidance
