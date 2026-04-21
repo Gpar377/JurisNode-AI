@@ -44,7 +44,7 @@ function RegisterForm() {
             <Navbar />
             <div className="auth-page">
                 <div className="auth-card fade-in" style={{ maxWidth: 520 }}>
-                    <h1>Join LexLink</h1>
+                    <h1>Join JurisNode</h1>
                     <p className="subtitle">Create your account and start navigating legal situations</p>
 
                     <div className="role-toggle">
