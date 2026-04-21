@@ -54,7 +54,7 @@ export async function POST(request, { params }) {
             data: {
                 caseId: id,
                 senderRole: 'AI',
-                senderName: 'LexLink AI',
+                senderName: 'JurisNode AI',
                 content: aiResponseText,
                 messageType: 'GUIDANCE'
             }
