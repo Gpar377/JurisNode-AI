@@ -104,7 +104,7 @@ function NewCaseForm() {
                     </div>
 
                     <div className="disclaimer" style={{ marginBottom: 20 }}>
-                        <strong>⚠️ Disclaimer:</strong> LexLink provides legal procedural information only.
+                        <strong>⚠️ Disclaimer:</strong> JurisNode provides legal procedural information only.
                         It does not constitute legal advice. Always consult a qualified lawyer for specific guidance.
                     </div>
 
