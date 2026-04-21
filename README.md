@@ -172,7 +172,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## 👥 Team
 
-Built for **AI for Bharat** — bridging the legal justice gap with AI.
 
 | Role | Name |
 |------|------|
