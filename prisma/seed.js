@@ -168,7 +168,7 @@ const LEGAL_CATEGORIES = [
 ];
 
 async function main() {
-    console.log('🌱 Seeding LexLink database...\n');
+    console.log('🌱 Seeding JurisNode database...\n');
 
     // Create categories
     for (const cat of LEGAL_CATEGORIES) {
@@ -307,7 +307,7 @@ async function main() {
                 {
                     caseId: sampleCase.id,
                     senderRole: 'AI',
-                    senderName: 'LexLink AI',
+                    senderName: 'JurisNode AI',
                     content: 'I understand you\'ve been in a road accident in Chennai. Here are the immediate steps you should generally take:\n\n1. 🔴 Ensure your safety and seek medical attention if needed\n2. 🔴 File an FIR at the nearest police station (generally within 24 hours)\n3. 🟡 Document the scene - take photos of vehicle damage, road conditions, and any injuries\n4. 🟡 Collect witness contact details\n5. 🟢 Notify your insurance company\n\n⚠️ Since this happened in Tamil Nadu and you\'re from Delhi, you may want to consider connecting with a local lawyer familiar with Tamil Nadu jurisdiction.\n\nDisclaimer: This is general procedural information, not legal advice.',
                     messageType: 'GUIDANCE'
                 }
