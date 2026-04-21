@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/LexLink-AI%20Legal%20Platform-6366f1?style=for-the-badge&logo=scales&logoColor=white" />
+  <img src="https://img.shields.io/badge/JurisNode-AI%20Legal%20Platform-6366f1?style=for-the-badge&logo=scales&logoColor=white" />
 </p>
 
-<h1 align="center">⚖️ LexLink</h1>
+<h1 align="center">⚖️ JurisNode</h1>
 <h3 align="center">AI-Powered Legal Navigation Platform for India</h3>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 ## 🚀 Overview
 
-**LexLink** is an AI-powered legal navigation platform designed to bridge the justice gap in India. It empowers citizens — especially in rural and underserved communities — to understand their legal rights, navigate complex procedures, and connect with verified lawyers across jurisdictions.
+**JurisNode** is an AI-powered legal navigation platform designed to bridge the justice gap in India. It empowers citizens — especially in rural and underserved communities — to understand their legal rights, navigate complex procedures, and connect with verified lawyers across jurisdictions.
 
 ### The Problem
 - **70%** of India's population lacks access to affordable legal guidance
@@ -24,7 +24,7 @@
 - Finding the right lawyer across jurisdictions is nearly impossible for common citizens
 
 ### Our Solution
-LexLink provides:
+JurisNode provides:
 - 🤖 **AI Legal Navigator** — Procedural guidance powered by an intelligent classification engine
 - 📋 **Step-by-step procedures** — Time-sensitive actions with urgency indicators
 - ⚖️ **Lawyer Discovery** — Search & assign lawyers by state, specialization, and experience
@@ -65,7 +65,7 @@ AI Engine:   Custom rule-based classification + guidance engine
 ## 📁 Project Structure
 
 ```
-lexlink/
+jurisnode/
 ├── app/
 │   ├── api/
 │   │   ├── ai/chat/          # AI chat endpoint
@@ -108,8 +108,8 @@ lexlink/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Gpar377/lexlink.git
-cd lexlink
+git clone https://github.com/Gpar377/jurisnode.git
+cd jurisnode
 
 # 2. Install dependencies
 npm install
@@ -181,5 +181,5 @@ Built for **AI for Bharat** — bridging the legal justice gap with AI.
 ---
 
 <p align="center">
-  <strong>⚖️ LexLink — Navigate any legal situation with confidence</strong>
+  <strong>⚖️ JurisNode — Navigate any legal situation with confidence</strong>
 </p>
