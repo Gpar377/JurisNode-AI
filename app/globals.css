@@ -1247,3 +1247,33 @@ select option {
   border-color: var(--primary-lighter);
   background: rgba(59, 130, 246, 0.05);
 }
+
+/* ── React Markdown Typography Fixes ── */
+.ai-markdown-content {
+  font-size: 14px;
+}
+.ai-markdown-content p {
+  margin-bottom: 0.75rem;
+}
+.ai-markdown-content ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+.ai-markdown-content ol {
+  list-style-type: decimal;
+  margin-left: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+.ai-markdown-content li {
+  margin-bottom: 0.25rem;
+}
+.ai-markdown-content strong {
+  color: var(--text);
+}
+.ai-markdown-content h1, .ai-markdown-content h2, .ai-markdown-content h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: var(--primary-lighter);
+}
