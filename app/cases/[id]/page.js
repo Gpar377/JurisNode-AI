@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { useAuth } from '@/lib/AuthContext';
 import { useToast } from '@/components/Toast';
 import Navbar from '@/components/Navbar';
+import ReactMarkdown from 'react-markdown';
+
 
 function CaseDetail() {
     const { user, authFetch, loading: authLoading } = useAuth();
@@ -126,14 +128,6 @@ function CaseDetail() {
         return map[status] || 'badge-open';
     };
 
-    const formatChatMessage = (text) => {
-        return text
-            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-            .replace(/\n/g, '<br/>')
-            .replace(/🔴/g, '<span style="color:#f87171">🔴</span>')
-            .replace(/🟡/g, '<span style="color:#fbbf24">🟡</span>')
-            .replace(/🟢/g, '<span style="color:#34d399">🟢</span>');
-    };
 
     const formatFileSize = (bytes) => {
         if (bytes < 1024) return bytes + ' B';
@@ -208,7 +202,9 @@ function CaseDetail() {
                                     <div className="sender">
                                         {msg.senderType === 'AI' ? '🤖 JurisNode AI' : msg.senderType === 'LAWYER' ? `⚖️ ${msg.senderName || 'Lawyer'}` : `👤 You`}
                                     </div>
-                                    <div dangerouslySetInnerHTML={{ __html: formatChatMessage(msg.content) }} />
+                                    <div className="ai-markdown-content text-sm leading-relaxed space-y-2">
+                                        <ReactMarkdown>{msg.content}</ReactMarkdown>
+                                    </div>
                                     <div style={{ fontSize: 11, color: 'var(--text-dim)', marginTop: 6 }}>
                                         {new Date(msg.createdAt || msg.timestamp).toLocaleString('en-IN')}
                                     </div>
