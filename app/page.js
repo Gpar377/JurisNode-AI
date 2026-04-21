@@ -27,7 +27,7 @@ function LandingContent() {
           <span className="gradient">with AI-Powered Confidence</span>
         </h1>
         <p>
-          From first incident to final resolution — LexLink guides you through legal procedures,
+          From first incident to final resolution — JurisNode guides you through legal procedures,
           connects you with the right lawyers, and ensures zero information loss.
         </p>
         <div className="hero-actions">
@@ -39,7 +39,7 @@ function LandingContent() {
       {/* How it works */}
       <section className="container" style={{ padding: '60px 20px' }}>
         <div className="section-header">
-          <h2>How LexLink Works</h2>
+          <h2>How JurisNode Works</h2>
           <p>Your AI-powered legal journey in 4 simple steps</p>
         </div>
         <div className="steps">
@@ -86,7 +86,7 @@ function LandingContent() {
       {/* Core Innovation */}
       <section className="container" style={{ padding: '40px 20px 60px' }}>
         <div className="section-header">
-          <h2>Why LexLink is Different</h2>
+          <h2>Why JurisNode is Different</h2>
           <p>The legal continuity engine that doesn&apos;t exist anywhere else</p>
         </div>
         <div className="grid grid-2">
@@ -124,7 +124,7 @@ function LandingContent() {
       {/* Disclaimer */}
       <section className="container" style={{ padding: '20px 20px 40px' }}>
         <div className="disclaimer" style={{ textAlign: 'center' }}>
-          <strong>⚠️ Legal Disclaimer:</strong> LexLink provides legal information and procedural navigation only.
+          <strong>⚠️ Legal Disclaimer:</strong> JurisNode provides legal information and procedural navigation only.
           It does not constitute legal advice or legal representation. Always consult a qualified lawyer for specific legal guidance.
         </div>
       </section>
@@ -132,7 +132,7 @@ function LandingContent() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <p>⚖️ LexLink — AI-Powered Legal Navigation Platform</p>
+          <p>⚖️ JurisNode — AI-Powered Legal Navigation Platform</p>
           <p style={{ marginTop: 6 }}>Built for access to justice. Not a substitute for legal advice.</p>
         </div>
       </footer>
