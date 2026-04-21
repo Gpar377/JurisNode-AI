@@ -87,7 +87,7 @@ function CaseDetail() {
 
             const res = await fetch(`/api/cases/${params.id}/documents`, {
                 method: 'POST',
-                headers: { 'Authorization': `Bearer ${localStorage.getItem('lexlink_auth') ? JSON.parse(localStorage.getItem('lexlink_auth')).token : ''}` },
+                headers: { 'Authorization': `Bearer ${localStorage.getItem('jurisnode_auth') ? JSON.parse(localStorage.getItem('jurisnode_auth')).token : ''}` },
                 body: formData
             });
             if (res.ok) {
@@ -192,7 +192,7 @@ function CaseDetail() {
                 {activeTab === 'chat' && (
                     <div className="chat-container" style={{ height: 600 }}>
                         <div className="chat-header">
-                            🤖 LexLink AI Legal Navigator
+                            🤖 JurisNode AI Legal Navigator
                             <span style={{ fontSize: 12, color: 'var(--text-dim)', marginLeft: 'auto' }}>Procedural guidance only • Not legal advice</span>
                         </div>
                         <div className="chat-messages">
@@ -206,7 +206,7 @@ function CaseDetail() {
                             {messages.map((msg, i) => (
                                 <div key={i} className={`chat-msg ${msg.senderType === 'USER' ? 'user' : msg.senderType === 'AI' ? 'ai' : 'lawyer'}`}>
                                     <div className="sender">
-                                        {msg.senderType === 'AI' ? '🤖 LexLink AI' : msg.senderType === 'LAWYER' ? `⚖️ ${msg.senderName || 'Lawyer'}` : `👤 You`}
+                                        {msg.senderType === 'AI' ? '🤖 JurisNode AI' : msg.senderType === 'LAWYER' ? `⚖️ ${msg.senderName || 'Lawyer'}` : `👤 You`}
                                     </div>
                                     <div dangerouslySetInnerHTML={{ __html: formatChatMessage(msg.content) }} />
                                     <div style={{ fontSize: 11, color: 'var(--text-dim)', marginTop: 6 }}>
